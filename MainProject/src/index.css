@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.Pos{
+  display: flex;
+  justify-content: flex-end; /* This pushes child elements to the right */
+    padding-top: 0.1rem/* 4px */;
+    padding-bottom: 0.1rem/* 4px */;
+
+}
+.But {
+  margin-left: 620px /* 384px */;
+  
+}
+
+
+.Done_Pos{
+  display: flex;
+  justify-content: flex-end; /* This pushes child elements to the right */
+
+}
+.wCard {
+  width:  584px /* 384px */;
+}
+
+.hCard {
+  height:  500px /* 384px */;
+}
+.mx_Button {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.To_do_H {
+  max-height: 550px;
+}
+.Done_H {
+  max-height: 550px;
+}
+.h_Calendar {
+  height: 600px;
+}
